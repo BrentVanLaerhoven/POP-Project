@@ -1,0 +1,164 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+.container {
+    color: #fff;
+    width: 78px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    margin: 50px;
+}
+
+body {
+    background-color: #111 !important;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: #0d6efd;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    font-size: 1.6rem;
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1);
+    background-color: #fff !important;
+}
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#footer-bg {
+    background-color: #282d32;
+}
+
+.card {
+    margin-bottom: 46px;
+    background-color: #0d6efd !important;
+    border-radius: 20px !important;
+}
+
+.card-body {
+    background-color: #000;
+    border: 0.4rem solid #0d6efd;
+    border-radius: 20px;
+}
+
+#waar {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#wanneer {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.kaart {
+    margin-top: 46px;
+}
+
+#info {
+    margin: 20px;
+}

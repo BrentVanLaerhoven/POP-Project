@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <title>Reservatie</title>
+</head>
+
+<body>
+    <header class="row">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a href=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-end">
+                        <a class="nav-link" href="website.html">Home</a>
+                        <a class="nav-link" href="contact.html">Reservatie</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <h1>Reserveer nu!</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">Voornaam</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Achternaam</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="Telefoonnummer" class="form-label">Telefoonnummer</label>
+                <input type="text" class="form-control" id="Telefoonnummer" placeholder="+32 (0) 472 04 00 00">
+            </div>
+            <div>
+                <label for="tafel">Welke tafel wil je reserveren?</label>
+                <select class="col-md-12 form-control" name="tafel" id="tafel" required>
+                    <option value="" hidden>Klik om te kiezen</option>
+                    <option value="1">Tafel: (1.10m x 0.8m) (15 euro)</option>
+                    <option value="2">Tafel (3x): (1.80m x 0.8m) (20 euro)</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Opmerkingen of vragen?</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item text">
+                        <h3>Wie zijn wij?</h3>
+                        <p>Wij zijn twee gemotiveerde vrienden met een passie voor auto's.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item text">
+                        <h3>Over</h3>
+                        <ul>
+                            <li><a href="website.html">Home</a></li>
+                            <li><a href="contact.html">Reservatie</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Contactinformatie</h3>
+                        <p>Guy Van Laerhoven: 0472 85 68 84 / guyvanlaerhoven1@gmail.com</p>
+                        <p>Bram Hazes: 0497 54 81 92 / bram.hazes@telenet.be</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="website.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
